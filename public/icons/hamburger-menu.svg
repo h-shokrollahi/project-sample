@@ -1,0 +1,23 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="22"
+  height="22"
+  x="0"
+  y="0"
+  viewBox="0 0 32 32"
+  style="enable-background: new 0 0 512 512"
+  xml:space="preserve"
+  class=""
+>
+  <g transform="matrix(1.1,0,0,1.1,-1.6000000000000014,-1.6000000000000014)">
+    <path
+      fill="#212121"
+      d="M30 25a1 1 0 0 1-1 1H3a1 1 0 0 1 0-2h26a1 1 0 0 1 1 1zm-1-10H3a1 1 0 0 0 0 2h26a1 1 0 0 0 0-2zM3 8h26a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2z"
+      opacity="1"
+      data-original="#212121"
+      class=""
+    ></path>
+  </g>
+</svg>

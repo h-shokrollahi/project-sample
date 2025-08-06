@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: $secondary;
+  font-family: IBMPlexSansArabicLight;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+hr {
+  background: #d6d6d6;
+}
+@each $item in $marginBottom {
+  .mb-#{$item} {
+    margin-bottom: $item !important;
+  }
+}
+
+.bg-gray {
+  background-color: $gray;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.numbers {
+  font-family: IranYekanRegular;
+}
+
+// btn
+.btn {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+
+  @include mediaQuery(300px) {
+    padding: 10px 34px 11px;
+    font-size: 1.2rem;
+  }
+  @include mediaQuery(768px) {
+    padding: 15px 70px 21px;
+    font-size: 1.5rem;
+  }
+
+  .title {
+    line-height: 1;
+
+    span {
+      margin-left: 13px;
+    }
+  }
+}
+.btn-primary {
+  background-color: $light-gray;
+  transition: all 0.3s ease 0s;
+  &:hover,
+  &:active {
+    background-color: $dark-gray !important;
+  }
+}
+.btn-secondary {
+  background-color: $secondary;
+  transition: all 0.3s ease 0s;
+  color: white;
+
+  &:hover,
+  &:active {
+    background-color: $secondary !important;
+    color: white;
+    span,
+    img {
+      filter: brightness(0) saturate(100%) invert(100%) sepia(94%) saturate(0%) hue-rotate(197deg)
+        brightness(107%) contrast(107%);
+    }
+  }
+}
+.btn-dark-gray {
+  background-color: $dark-gray;
+  transition: all 0.3s ease 0s;
+  &:hover,
+  &:active {
+    background-color: $secondary !important;
+    color: white;
+    span,
+    img {
+      filter: brightness(0) saturate(100%) invert(100%) sepia(94%) saturate(0%) hue-rotate(197deg)
+        brightness(107%) contrast(107%);
+    }
+  }
+}
+// end btn
