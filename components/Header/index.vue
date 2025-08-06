@@ -184,8 +184,9 @@
     visibility: hidden;
     .first-section {
       height: 70%;
-      background-color: rgba(0, 0, 0, 0.7);
-      // filter: blur(23.3px);
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(23.299999237060547px);
+
       .search-card {
         border-bottom: 1px solid white;
         padding-bottom: 20px;
@@ -212,7 +213,8 @@
     }
     .second-section {
       height: 30%;
-      background-color: rgba(0, 0, 0, 0.3);
+      background: rgba(0, 0, 0, 0.15);
+      backdrop-filter: blur(1px);
     }
   }
 </style>

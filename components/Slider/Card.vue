@@ -18,6 +18,8 @@
     background-repeat: no-repeat;
     height: 773px;
     position: relative;
+    background: linear-gradient(101deg, #ffffff 0.17%, #eeeeee 100%);
+
     .text {
       & :first-child {
         font-size: 48px;
