@@ -1,6 +1,24 @@
 # project-sample
 
-# Nuxt Minimal Starter
+This project is built using the Nuxt ^3.17.7 framework and simulates the homepage of a simple online
+store. The main goal is to get familiar with page creation, component usage, routing, Composition
+API, and styling with SCSS in Nuxt 3.
+
+## Structure
+.
+├── assets/         # Contains SCSS, fonts, and other resources processed by Nuxt before build
+├── components/     # Reusable Vue components used across the project
+├── configs/        # Configuration files 
+├── pages/          # Application pages. each file or folder here automatically becomes a route
+├── layouts/        # Page layouts (shared structures like header, footer, sidebars)
+├── plugins/        # Scripts that run before rendering the app (e.g., registering libraries or features)
+├── public/         # Static files (e.g., images, icons, and files directly accessible via URL)
+├── app.vue         # Main application entry point
+├── nuxt.config.ts  # Nuxt configuration file (modules, routes, plugins, global CSS, etc.)
+└── error.vue       # Custom error page
+
+
+## documentation
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -74,4 +92,5 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more
+information.
