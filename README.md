@@ -5,18 +5,26 @@ store. The main goal is to get familiar with page creation, component usage, rou
 API, and styling with SCSS in Nuxt 3.
 
 ## Structure
-.
-├── assets/         # Contains SCSS, fonts, and other resources processed by Nuxt before build
-├── components/     # Reusable Vue components used across the project
-├── configs/        # Configuration files 
-├── pages/          # Application pages. each file or folder here automatically becomes a route
-├── layouts/        # Page layouts (shared structures like header, footer, sidebars)
-├── plugins/        # Scripts that run before rendering the app (e.g., registering libraries or features)
-├── public/         # Static files (e.g., images, icons, and files directly accessible via URL)
-├── app.vue         # Main application entry point
-├── nuxt.config.ts  # Nuxt configuration file (modules, routes, plugins, global CSS, etc.)
-└── error.vue       # Custom error page
 
+. assets/=> Contains SCSS, fonts, and other resources processed by Nuxt before build
+
+. components/=> Reusable Vue components used across the project
+
+. configs/=> Configuration files
+
+. pages/=> Application pages. each file or folder here automatically becomes a route
+
+. layouts/=> Page layouts (shared structures like header, footer, sidebars)
+
+. plugins/=> Scripts that run before rendering the app (e.g., registering libraries or features)
+
+. public/=> Static files (e.g., images, icons, and files directly accessible via URL)
+
+. app.vue => Main application entry point
+
+. nuxt.config.ts => Nuxt configuration file (modules, routes, plugins, global CSS, etc.)
+
+. error.vue => Custom error page
 
 ## documentation
 
